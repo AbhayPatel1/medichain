@@ -97,15 +97,19 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 4. Run the following commands
    ```sh
-   npm run hardhat node
+   npx hardhat node
    ```
-5. Add the account in the metamask account
+5. Run the following commands
+   ```sh
+   npx hardhat run --network localhost scripts/deploy.js
+   ```   
+6. Add the account in the metamask account
 
-6. Run the following command to deploy your contract to hardhat network
+7. Run the following command to deploy your contract to hardhat network
    ```sh
    npm run --deploy 
    ```
-7. Start the react server
+8. Start the react server
   ```sh
   npm start
   ```
